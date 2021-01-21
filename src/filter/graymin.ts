@@ -1,6 +1,6 @@
 /**
  * @description 灰度最小
- * @param       {ImageData} imgData
+ * @param       {ImageData} imgData 像素数据
  * @return      {ImageData}
  */
 function graymin(imgData: ImageData): ImageData {

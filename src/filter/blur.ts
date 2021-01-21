@@ -1,5 +1,6 @@
 /**
  * @description 高斯模糊
+ * @param       {ImageData} imgData 像素数据
  * @param       {Number}    radius  取样区域半径, 正数, 可选, 默认为 3.0
  * @param       {Number}    sigma   标准方差, 可选, 默认取值为 radius / 3
  * @return      {ImageData}
@@ -20,7 +21,7 @@ function blur(imgData: ImageData, radius: number = 3, sigma: number = radius / 3
         j: number,
         k: number,
         len: number;
-
+    radius *= 6;
     a = 1 / (Math.sqrt(2 * Math.PI) * sigma);
     b = -1 / (2 * sigma * sigma);
     //生成高斯矩阵

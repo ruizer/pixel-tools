@@ -1,6 +1,6 @@
 /**
  * @description 灰度最大
- * @param       {ImageData} imgData
+ * @param       {ImageData} imgData 像素数据
  * @return      {ImageData}
  */
 function graymax(imgData: ImageData): ImageData {

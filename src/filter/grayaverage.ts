@@ -1,6 +1,6 @@
 /**
  * @description 平均灰度处理
- * @param       {ImageData} imgData
+ * @param       {ImageData} imgData 像素数据
  * @return      {ImageData}
  */
 function grayaverage(imgData: ImageData): ImageData {

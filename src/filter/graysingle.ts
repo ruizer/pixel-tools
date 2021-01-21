@@ -1,7 +1,7 @@
 /**
  * @description 灰度单一通道
- * @param       {ImageData} imgData
- * @param       {String}    color red/green/blue
+ * @param       {ImageData} imgData 像素数据
+ * @param       {String}    color   red/green/blue
  * @return      {ImageData}
  */
 function graysingle(imgData: ImageData, color: string): ImageData {

@@ -1,6 +1,7 @@
 /**
  * @description 调整亮度
- * @param       {Number}    brightness 值<=0全黑，默认1，大于1更亮
+ * @param       {ImageData} imgData     像素数据
+ * @param       {Number}    brightness  值<=0全黑，默认1，大于1更亮
  * @return      {ImageData}
  */
 

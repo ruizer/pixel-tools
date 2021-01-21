@@ -1,6 +1,6 @@
 /**
  * @description 灰度去饱和
- * @param       {ImageData} imgData
+ * @param       {ImageData} imgData 像素数据
  * @return      {ImageData}
  */
 function graydesat(imgData: ImageData): ImageData {

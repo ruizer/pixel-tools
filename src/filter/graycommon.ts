@@ -1,6 +1,6 @@
 /**
  * @description 加权平均灰度一般处理
- * @param       {ImageData} imgData
+ * @param       {ImageData} imgData 像素数据
  * @return      {ImageData}
  */
 function graycommon(imgData: ImageData): ImageData {

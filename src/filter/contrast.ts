@@ -1,6 +1,7 @@
 /**
  * @description 对比度
- * @param       {Number}    contrast 0默认，-1时呈灰色
+ * @param       {ImageData} imgData     像素数据
+ * @param       {Number}    contrast    0无变化，-1时呈灰色
  * @return      {ImageData}
  */
 
