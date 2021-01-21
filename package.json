@@ -1,0 +1,27 @@
+{
+  "name": "pixel-utils",
+  "version": "0.1.0",
+  "description": "> 支持对 `canvas` 画布的像素数据 `ImageData` 的处理，如：亮度、对比度、高斯模糊等",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruizer/pixel-utils.git"
+  },
+  "keywords": [
+    "canvas",
+    "imageData",
+    "pixel",
+    "亮度",
+    "对比度",
+    "高斯模糊"
+  ],
+  "author": "ruizer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruizer/pixel-utils/issues"
+  },
+  "homepage": "https://github.com/ruizer/pixel-utils#readme"
+}
